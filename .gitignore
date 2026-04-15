@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# InsightFace model cache
+*.onnx
+
+# Environment secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
